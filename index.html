@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+    <title>BoxDox</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      :root {
+        --color: #e94b3c;
+      }
+
+      body {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+        text-align: center;
+        font-family: "Sacramento", cursive;
+        color: #fff;
+        background: radial-gradient(black 15%, transparent 16%) 0 0,
+          radial-gradient(black 15%, transparent 16%) 8px 8px,
+          radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%) 0 1px,
+          radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%) 8px 9px;
+        background-color: #282828;
+        background-size: 16px 16px;
+        user-select: none;
+      }
+
+      h1 {
+        font-size: 3.5rem;
+        font-weight: 600;
+      }
+
+      h2 {
+        font-size: 2.5rem;
+        font-weight: 400;
+      }
+
+      img {
+        width: 100px;
+        border-radius: 50%;
+        margin: 0.5rem 0;
+      }
+
+      a {
+        background: linear-gradient(
+          to bottom,
+          var(--color) 0%,
+          var(--color) 100%
+        );
+        background-position: 0 70%;
+        background-repeat: repeat-x;
+        background-size: 10px 10px;
+        color: #fff;
+        padding: 0.75rem 0.5rem;
+        text-decoration: none;
+        transition: all 0.2s;
+      }
+
+      a:hover {
+        background-size: 10px 60px;
+      }
+
+      @media only screen and (max-width: 576px) {
+        h1 {
+          font-size: 3rem;
+        }
+        img {
+          width: 75px;
+        }
+        h2 {
+          font-size: 2.5rem;
+        }
+        a {
+          padding: 0.5rem;
+          background-size: 5px 5px;
+        }
+        a:hover {
+          background-size: 5px 60px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>yeah, that's me, vaibhav</h1>
+    <img
+      src="https://avatars0.githubusercontent.com/u/19517445?s=100"
+      alt="vaibhav's github profile picture"
+    />
+    <h2>
+      i build
+      <a
+        href="https://www.github.com/boxdox"
+        rel="noreferrer noopener"
+        target="_blank"
+        >stuff</a
+      >
+      nobody cares about.
+    </h2>
+    <a
+      href="https://twitter.com/vaibhav_kandwal/"
+      rel="noreferrer noopener"
+      target="_blank"
+    >
+      <h2>say hi!</h2>
+    </a>
+  </body>
+</html>
